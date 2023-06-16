@@ -5,6 +5,12 @@
 
 This is a clone of Facebook's audiocraft repo with some slight modifications to create a google collab sandbox with a much larger song creation length (up to 10000 seconds)
 
+<a target="_blank" href="https://drive.google.com/file/d/13SBItlVtbRa9p4k01MAkOhx8KQcOKn5p/view?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+<br>
+
 Audiocraft is a PyTorch library for deep learning research on audio generation. At the moment, it contains the code for MusicGen, a state-of-the-art controllable text-to-music model.
 
 ## MusicGen
@@ -15,11 +21,7 @@ all 4 codebooks in one pass. By introducing a small delay between the codebooks,
 them in parallel, thus having only 50 auto-regressive steps per second of audio.
 Check out our [sample page][musicgen_samples] or test the available demo!
 
-<a target="_blank" href="https://drive.google.com/file/d/13SBItlVtbRa9p4k01MAkOhx8KQcOKn5p/view?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
 
-<br>
 
 We use 20K hours of licensed music to train MusicGen. Specifically, we rely on an internal dataset of 10K high-quality music tracks, and on the ShutterStock and Pond5 music data.
 
